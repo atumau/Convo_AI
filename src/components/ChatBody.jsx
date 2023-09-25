@@ -26,7 +26,7 @@ const ChatBody = ({ chat }) => {
         return (
           <div
             key={i}
-            className={`border-[#999999] break-words border-2 rounded-xl self-end px-3 py-3 max-w-[80%] ${
+            className={`border-[#f02166] break-words border-2 rounded-sm self-end px-3 py-3 max-w-[90%] ${
               message.sender === "ai" && aiStyle
             }`}
           >
